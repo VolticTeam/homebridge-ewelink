@@ -1,6 +1,6 @@
 {
   "name": "homebridge-ewelink",
-  "version": "3.16.1-1",
+  "version": "3.16.4-0",
   "author": "bwp91",
   "description": "Homebridge/HOOBS plugin to control eWeLink devices with original firmware.",
   "license": "MIT",
@@ -17,7 +17,7 @@
   ],
   "main": "lib/index.js",
   "engines": {
-    "homebridge": "^1.1.0",
+    "homebridge": "^1.1.6",
     "node": "^14.15.1"
   },
   "repository": {
@@ -48,11 +48,9 @@
   "dependencies": {
     "@homebridge/plugin-ui-utils": "^0.0.17",
     "axios": "^0.21.0",
-    "color-convert": "^2.0.1",
-    "interval-promise": "^1.4.0",
     "node-dns-sd": "^0.4.2",
     "websocket-as-promised": "^1.1.0",
-    "ws": "^7.4.0"
+    "ws": "^7.4.1"
   },
   "standard": {
     "ignore": [
