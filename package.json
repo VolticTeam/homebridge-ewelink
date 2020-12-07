@@ -1,0 +1,89 @@
+{
+  "_from": "homebridge-ewelink@3.16.2",
+  "_id": "homebridge-ewelink@3.16.2",
+  "_inBundle": false,
+  "_integrity": "sha512-Yqk+pw+1IxaEHDzonev/tg9bjk0ctNDGdu9qsCjtHdB5IwZ7eskWm2dM5xKROcqaZPfzGri6tQPXoriffH+MKA==",
+  "_location": "/homebridge-ewelink",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "homebridge-ewelink@3.16.2",
+    "name": "homebridge-ewelink",
+    "escapedName": "homebridge-ewelink",
+    "rawSpec": "3.16.2",
+    "saveSpec": null,
+    "fetchSpec": "3.16.2"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/homebridge-ewelink/-/homebridge-ewelink-3.16.2.tgz",
+  "_shasum": "79ba7de42834c9b52556c21be48c81edeb1ee104",
+  "_spec": "homebridge-ewelink@3.16.2",
+  "_where": "/home/hoobs/.hoobs",
+  "author": {
+    "name": "bwp91"
+  },
+  "bugs": {
+    "url": "https://github.com/bwp91/homebridge-ewelink/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@homebridge/plugin-ui-utils": "^0.0.17",
+    "axios": "^0.21.0",
+    "node-dns-sd": "^0.4.2",
+    "websocket-as-promised": "^1.1.0",
+    "ws": "^7.4.0"
+  },
+  "deprecated": false,
+  "description": "Homebridge/HOOBS plugin to control eWeLink devices with original firmware.",
+  "engines": {
+    "homebridge": "^1.1.6",
+    "node": "^14.15.1"
+  },
+  "funding": [
+    {
+      "type": "github",
+      "url": "https://github.com/sponsors/bwp91"
+    },
+    {
+      "type": "kofi",
+      "url": "https://ko-fi.com/bwp91"
+    },
+    {
+      "type": "patreon",
+      "url": "https://www.patreon.com/bwp91"
+    },
+    {
+      "type": "paypal",
+      "url": "https://www.paypal.me/BenPotter"
+    }
+  ],
+  "homepage": "https://github.com/bwp91/homebridge-ewelink#readme",
+  "keywords": [
+    "homebridge",
+    "homebridge-plugin",
+    "homebridge-ewelink",
+    "hoobs",
+    "homekit",
+    "siri",
+    "ewelink",
+    "sonoff",
+    "eachen"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "name": "homebridge-ewelink",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bwp91/homebridge-ewelink.git"
+  },
+  "standard": {
+    "ignore": [
+      "/lib/fakegato/"
+    ]
+  },
+  "version": "3.16.2"
+}
